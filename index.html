@@ -18,9 +18,9 @@
 <body>
     <!-- Heading part starts -->
 
-    <header>
+    <header class="container mb-5">
         <!-- Navbar Part starts -->
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar mb-4 navbar-expand-lg">
             <div class="container d-flex justify-content-between">
                 <a class="navbar-brand fw-bold mb-1 text-styles" href="#">Info-Tech</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -279,7 +279,8 @@
         <!-- Course part ends here -->
 
         <!-- statistic part starts here  -->
-        <section class="mt-5">
+
+        <section class="container  my-5">
 
             <div class="row gx-5 mt-5" style="background-color: #F4FAFD;">
                 <div class="col-md-6 col-sm-12 px-3">
@@ -290,13 +291,15 @@
                         Institute</h1>
                     <p class="list-items">There are many variations of passages of Lorem Ipsum available, but the
                         majority have suffered alteration in some form, by injected humour, or
-                        randomised words which don't look even slightly believable. If you are going
-                        to use a passage of Lorem Ipsum, you need to be sure.</p>
+                        randomised words which don't look even slightly believable. <a class="d-lg-none" href="#">see
+                            more..</a> </p>
 
-
-                    <p class="list-items"> Anything embarrassing hidden in the middle of text. All the Lorem Ipsum
+                    <p class="list-items d-none d-lg-block">
+                        If you are going
+                        to use a passage of Lorem Ipsum, you need to be sure Anything embarrassing hidden in the middle
+                        of text. All the Lorem Ipsum
                         generators on the Internet tend to repeat predefined</p>
-                    <div class="d-lg-flex  justify-content-between">
+                    <div class="d-flex flex-wrap flex-lg-nowrap justify-content-between">
                         <div class="">
                             <h2>4.5k+</h2>
                             <p>Online Courses</p>
@@ -305,19 +308,65 @@
                             <h2>500+ </h2>
                             <p>Experts member</p>
                         </div>
+
                         <div class="">
                             <h2>5k+</h2>
                             <p>Rating & Review</p>
                         </div>
                     </div>
+
                     <button class="btn btn-primary px-3 rounded-3"> Read More</button>
                 </div>
             </div>
         </section>
         <!-- statistic part ends here  -->
+
     </main>
 
-    <!-- Main part starts here  -->
+    <!-- Main part ends here  -->
+
+    <!-- Modal part starts here  -->
+    <section class="container my-5 bg-primary p-5">
+        <div class="row gx-5 d-flex justify-content-between align-items-center">
+            <div class="col-sm-12 col-md- col-lg-7 list-items text-white">
+                <h1>Ready to join?</h1>
+                <p>Let's get started your journey by just going one step forward <br> to shine around with the
+                    technological
+                    advancement</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-5">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-light fs-5 fw-bold text-primary" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Register Now
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h6 class="modal-title" id="exampleModalLabel">Yay! You've submitted your Assignment-3.
+                                </h6>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                As You tried to complete your assignment within the time frame,
+                                If you keep working hard, You will success oneday:)
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Modal part ends here  -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
