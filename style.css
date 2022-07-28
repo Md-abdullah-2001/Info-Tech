@@ -14,13 +14,8 @@
   background-size: contain;
 }
 
-@media screen and (max-width:767px) {
-  
+/* some media queries for carousal image */
 
-  .banner-img{
-    height: 450px;
-  }
-}
 @media screen and (max-width:991px) {
   
 
@@ -28,4 +23,22 @@
     height: 370px;
   }
 }
+@media screen and (max-width:767px) {
+  
+
+  .banner-img{
+    height: 450px;
+  }
+}
+
+/*some media queries for  FREQUENTLY ASKED QUESTION PART  */
+@media screen and (min-width:993px) {
+  
+
+  .FAQ{
+    width: 75%;
+
+  }
+}
+
 
