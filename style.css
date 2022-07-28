@@ -1,11 +1,15 @@
-.text-styles{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 60px;
-   
-
+.text-styles {
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
 }
-.list-items{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    font-weight: 500;
+.list-items {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* course image size for mobile view  */
+.course-img {
+  width: 100%;
+  background-size: contain;
 }
