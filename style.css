@@ -13,3 +13,19 @@
   width: 100%;
   background-size: contain;
 }
+
+@media screen and (max-width:767px) {
+  
+
+  .banner-img{
+    height: 450px;
+  }
+}
+@media screen and (max-width:991px) {
+  
+
+  .banner-img{
+    height: 370px;
+  }
+}
+
