@@ -8,11 +8,19 @@
   font-weight: 500;
 }
 
+
+/* carousal image styles  */
+.banner-img{
+  filter: brightness(50%);
+}
+
 /* course image size for mobile view  */
 .course-img {
   width: 100%;
   background-size: contain;
 }
+
+
 
 /* some media queries for carousal image */
 
@@ -27,7 +35,7 @@
   
 
   .banner-img{
-    height: 450px;
+    height: 400px;
   }
 }
 
